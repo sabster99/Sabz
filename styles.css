@@ -82,6 +82,11 @@ border-radius: 30px;
     height: auto;
 }
 
+.new-ajib {
+    display: flex;
+    flex-direction: column;
+}
+
 .first-vp {
     display: flex;
     justify-content: space-around;
@@ -101,9 +106,9 @@ border-radius: 30px;
 }
 .first-vp-text {
     font-size: 28px;
-    width: 500px;
+    max-width: 500px;
     color: rgb(255, 255, 255);
-text-align: center;
+    text-align: center;
 }
 
 .first-vp-button {
